@@ -14,6 +14,16 @@
 		1B1B5D181EE69A45008962BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1B5D161EE69A45008962BB /* LaunchScreen.storyboard */; };
 		1B1B5D281EE6B064008962BB /* Wordnik-StatUpCodingChallenge.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1B1B5D271EE6B064008962BB /* Wordnik-StatUpCodingChallenge.debug.xcconfig */; };
 		1B1B5D2A1EE6B07F008962BB /* Wordnik-StatUpCodingChallenge.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1B1B5D291EE6B07F008962BB /* Wordnik-StatUpCodingChallenge.release.xcconfig */; };
+		1B1B5D2C1EE6B5B8008962BB /* WebServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D2B1EE6B5B8008962BB /* WebServiceHelper.swift */; };
+		1B1B5D2E1EE6B95A008962BB /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D2D1EE6B95A008962BB /* ViewUtils.swift */; };
+		1B1B5D301EE6BA2F008962BB /* WebServiceResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D2F1EE6BA2F008962BB /* WebServiceResponseHandler.swift */; };
+		1B1B5D321EE6BAD4008962BB /* DefaultWebServiceResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D311EE6BAD4008962BB /* DefaultWebServiceResponseHandler.swift */; };
+		1B1B5D341EE6C16A008962BB /* WebServiceConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D331EE6C16A008962BB /* WebServiceConfigurator.swift */; };
+		1B1B5D361EE6C2B5008962BB /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D351EE6C2B5008962BB /* Word.swift */; };
+		1B1B5D391EE6D0E3008962BB /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D381EE6D0E3008962BB /* UIAlertController.swift */; };
+		1B1B5D3B1EE6D10B008962BB /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D3A1EE6D10B008962BB /* UIDevice.swift */; };
+		1B1B5D3D1EE6D256008962BB /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D3C1EE6D256008962BB /* UIApplication.swift */; };
+		1B1B5D421EE6D611008962BB /* WordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D411EE6D611008962BB /* WordService.swift */; };
 		C387B138F2048DC09F833395 /* Pods_StatUpCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38C36AD2081C10C03D2D4F8 /* Pods_StatUpCodingChallenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +37,16 @@
 		1B1B5D191EE69A45008962BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B1B5D271EE6B064008962BB /* Wordnik-StatUpCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Wordnik-StatUpCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		1B1B5D291EE6B07F008962BB /* Wordnik-StatUpCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Wordnik-StatUpCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		1B1B5D2B1EE6B5B8008962BB /* WebServiceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebServiceHelper.swift; path = ../WebServiceHelper.swift; sourceTree = "<group>"; };
+		1B1B5D2D1EE6B95A008962BB /* ViewUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
+		1B1B5D2F1EE6BA2F008962BB /* WebServiceResponseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceResponseHandler.swift; sourceTree = "<group>"; };
+		1B1B5D311EE6BAD4008962BB /* DefaultWebServiceResponseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultWebServiceResponseHandler.swift; sourceTree = "<group>"; };
+		1B1B5D331EE6C16A008962BB /* WebServiceConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceConfigurator.swift; sourceTree = "<group>"; };
+		1B1B5D351EE6C2B5008962BB /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		1B1B5D381EE6D0E3008962BB /* UIAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
+		1B1B5D3A1EE6D10B008962BB /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		1B1B5D3C1EE6D256008962BB /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		1B1B5D411EE6D611008962BB /* WordService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordService.swift; sourceTree = "<group>"; };
 		5C156245DAFC694696181F47 /* Pods-StatUpCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StatUpCodingChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StatUpCodingChallenge/Pods-StatUpCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		D38C36AD2081C10C03D2D4F8 /* Pods_StatUpCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StatUpCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE08A31830399509181A2FA /* Pods-StatUpCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StatUpCodingChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-StatUpCodingChallenge/Pods-StatUpCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,14 +87,72 @@
 		1B1B5D0C1EE69A45008962BB /* StatUpCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				1B1B5D441EE6D7E8008962BB /* Utils */,
+				1B1B5D431EE6D7DA008962BB /* Helper */,
+				1B1B5D3F1EE6D2EA008962BB /* Service */,
+				1B1B5D3E1EE6D29C008962BB /* Domain */,
+				1B1B5D371EE6D0B8008962BB /* Extension */,
 				1B1B5D0D1EE69A45008962BB /* AppDelegate.swift */,
 				1B1B5D0F1EE69A45008962BB /* ViewController.swift */,
 				1B1B5D111EE69A45008962BB /* Main.storyboard */,
 				1B1B5D141EE69A45008962BB /* Assets.xcassets */,
 				1B1B5D161EE69A45008962BB /* LaunchScreen.storyboard */,
 				1B1B5D191EE69A45008962BB /* Info.plist */,
+				1B1B5D331EE6C16A008962BB /* WebServiceConfigurator.swift */,
 			);
 			path = StatUpCodingChallenge;
+			sourceTree = "<group>";
+		};
+		1B1B5D371EE6D0B8008962BB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B5D381EE6D0E3008962BB /* UIAlertController.swift */,
+				1B1B5D3A1EE6D10B008962BB /* UIDevice.swift */,
+				1B1B5D3C1EE6D256008962BB /* UIApplication.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		1B1B5D3E1EE6D29C008962BB /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B5D351EE6C2B5008962BB /* Word.swift */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		1B1B5D3F1EE6D2EA008962BB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B5D401EE6D2FB008962BB /* WebService */,
+				1B1B5D411EE6D611008962BB /* WordService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		1B1B5D401EE6D2FB008962BB /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B5D2F1EE6BA2F008962BB /* WebServiceResponseHandler.swift */,
+				1B1B5D311EE6BAD4008962BB /* DefaultWebServiceResponseHandler.swift */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+		1B1B5D431EE6D7DA008962BB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B5D2B1EE6B5B8008962BB /* WebServiceHelper.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		1B1B5D441EE6D7E8008962BB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B5D2D1EE6B95A008962BB /* ViewUtils.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		96C4B5441F675CC35B58B301 /* Pods */ = {
@@ -221,7 +299,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B1B5D101EE69A45008962BB /* ViewController.swift in Sources */,
+				1B1B5D391EE6D0E3008962BB /* UIAlertController.swift in Sources */,
+				1B1B5D361EE6C2B5008962BB /* Word.swift in Sources */,
+				1B1B5D3D1EE6D256008962BB /* UIApplication.swift in Sources */,
+				1B1B5D301EE6BA2F008962BB /* WebServiceResponseHandler.swift in Sources */,
+				1B1B5D421EE6D611008962BB /* WordService.swift in Sources */,
+				1B1B5D321EE6BAD4008962BB /* DefaultWebServiceResponseHandler.swift in Sources */,
+				1B1B5D3B1EE6D10B008962BB /* UIDevice.swift in Sources */,
+				1B1B5D2C1EE6B5B8008962BB /* WebServiceHelper.swift in Sources */,
+				1B1B5D2E1EE6B95A008962BB /* ViewUtils.swift in Sources */,
 				1B1B5D0E1EE69A45008962BB /* AppDelegate.swift in Sources */,
+				1B1B5D341EE6C16A008962BB /* WebServiceConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
