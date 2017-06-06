@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.0.1)
+  - AWSCognito (2.5.1):
+    - AWSCore (= 2.5.1)
+  - AWSCognitoIdentityProvider (2.5.1):
+    - AWSCore (= 2.5.1)
+  - AWSCore (2.5.1)
+  - AWSSNS (2.5.1):
+    - AWSCore (= 2.5.1)
+  - MBProgressHUD (1.0.0)
+  - ObjectMapper (2.2.1)
+
+DEPENDENCIES:
+  - Alamofire (= 4.0.1)
+  - AWSCognito
+  - AWSCognitoIdentityProvider
+  - AWSSNS
+  - MBProgressHUD (= 1.0.0)
+  - ObjectMapper (= 2.2.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AWSCognito: 0550a19816fccbb35191d1ed710e75c070e2cbe6
+  AWSCognitoIdentityProvider: a65b0f243929163d1503c10bfabf471e5441afc4
+  AWSCore: 71ca929a42c68ca7d645fcfa1e41ea0ff792a275
+  AWSSNS: 417b51bd7d0f3160310fc6724924307969f35b69
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  ObjectMapper: 41e43e1a89f8060ef5ea5d04ba852e269a621d68
+
+PODFILE CHECKSUM: 11d0ff0453ef2e57a4b0fc9ebf2a20cc6f44c239
+
+COCOAPODS: 1.2.0.beta.1
