@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AWSSNSTopic</key>
+	<string>arn:aws:sns:us-west-2:327210751071:statup-challenge-push</string>
+	<key>AWSRegion</key>
+	<string>us-west-2</string>
+	<key>AWSIdentityPoolId</key>
+	<string>us-west-2:0c57a6ca-b882-4ca7-ab96-d2cac360a80c</string>
+	<key>wordOfTheDayApi</key>
+	<string>${WORDNIK_BASE_URL_SCHEME}://${WORDNIK_BASE_URL_HOST}</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
