@@ -29,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CocoaLumberjack.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -72,6 +77,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9333815F463D11E88AB7ABAD88D00CA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B43918AB915242B851ABEFB5D70BE0AD</key>
 		<dict>
 			<key>primary</key>
@@ -82,7 +92,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CBE0664396D0E6C2FEB5718058EAFBA0</key>
+		<key>D7D6460167E9A0525598385B4C60B93C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

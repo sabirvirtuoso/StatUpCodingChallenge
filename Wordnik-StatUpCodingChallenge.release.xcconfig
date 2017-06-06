@@ -1,0 +1,11 @@
+// Change the values in this file as needed. Note that each time this file is updated, you need to clean-build for
+// the change to take effect.
+//
+// Use the following command to make Git ignore changes to this file:
+//
+// git update-index --assume-unchanged Pods-StatUpCodingChallenge.release.xcconfig
+
+#include "Pods/Target Support Files/Pods-StatUpCodingChallenge/Pods-StatUpCodingChallenge.release.xcconfig"
+
+WORDNIK_BASE_URL_SCHEME = http
+WORDNIK_BASE_URL_HOST = api.wordnik.com/v4/words.json/wordOfTheDay
