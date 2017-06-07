@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1B1B5D0E1EE69A45008962BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D0D1EE69A45008962BB /* AppDelegate.swift */; };
-		1B1B5D101EE69A45008962BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D0F1EE69A45008962BB /* ViewController.swift */; };
+		1B1B5D101EE69A45008962BB /* NotePadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D0F1EE69A45008962BB /* NotePadTableViewController.swift */; };
 		1B1B5D131EE69A45008962BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1B5D111EE69A45008962BB /* Main.storyboard */; };
 		1B1B5D151EE69A45008962BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1B5D141EE69A45008962BB /* Assets.xcassets */; };
 		1B1B5D181EE69A45008962BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1B5D161EE69A45008962BB /* LaunchScreen.storyboard */; };
-		1B1B5D281EE6B064008962BB /* Wordnik-StatUpCodingChallenge.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1B1B5D271EE6B064008962BB /* Wordnik-StatUpCodingChallenge.debug.xcconfig */; };
-		1B1B5D2A1EE6B07F008962BB /* Wordnik-StatUpCodingChallenge.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1B1B5D291EE6B07F008962BB /* Wordnik-StatUpCodingChallenge.release.xcconfig */; };
 		1B1B5D2C1EE6B5B8008962BB /* WebServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D2B1EE6B5B8008962BB /* WebServiceHelper.swift */; };
 		1B1B5D2E1EE6B95A008962BB /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D2D1EE6B95A008962BB /* ViewUtils.swift */; };
 		1B1B5D301EE6BA2F008962BB /* WebServiceResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D2F1EE6BA2F008962BB /* WebServiceResponseHandler.swift */; };
@@ -26,13 +24,18 @@
 		1B1B5D421EE6D611008962BB /* WordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D411EE6D611008962BB /* WordService.swift */; };
 		1B1B5D461EE7B0B1008962BB /* SNSMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D451EE7B0B1008962BB /* SNSMessage.swift */; };
 		1B1B5D481EE7B58E008962BB /* AWSSNSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D471EE7B58E008962BB /* AWSSNSService.swift */; };
+		1B8EC0CF1EE7C2C8008912A3 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8EC0CE1EE7C2C8008912A3 /* TextView.swift */; };
+		1B8EC0D11EE7D0B6008912A3 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8EC0D01EE7D0B6008912A3 /* Double.swift */; };
+		1B8EC0D31EE7E948008912A3 /* Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8EC0D21EE7E948008912A3 /* Definition.swift */; };
+		1B8EC0D51EE7FAAD008912A3 /* MBProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8EC0D41EE7FAAD008912A3 /* MBProgressHUD.swift */; };
+		1B8EC0D71EE81EC7008912A3 /* TextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B8EC0D61EE81EC7008912A3 /* TextView.xib */; };
 		C387B138F2048DC09F833395 /* Pods_StatUpCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38C36AD2081C10C03D2D4F8 /* Pods_StatUpCodingChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B1B5D0A1EE69A45008962BB /* StatUpCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatUpCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1B5D0D1EE69A45008962BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B1B5D0F1EE69A45008962BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B1B5D0F1EE69A45008962BB /* NotePadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePadTableViewController.swift; sourceTree = "<group>"; };
 		1B1B5D121EE69A45008962BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B1B5D141EE69A45008962BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B1B5D171EE69A45008962BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		1B1B5D411EE6D611008962BB /* WordService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordService.swift; sourceTree = "<group>"; };
 		1B1B5D451EE7B0B1008962BB /* SNSMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSMessage.swift; sourceTree = "<group>"; };
 		1B1B5D471EE7B58E008962BB /* AWSSNSService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSSNSService.swift; sourceTree = "<group>"; };
+		1B8EC0CE1EE7C2C8008912A3 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		1B8EC0D01EE7D0B6008912A3 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		1B8EC0D21EE7E948008912A3 /* Definition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Definition.swift; sourceTree = "<group>"; };
+		1B8EC0D41EE7FAAD008912A3 /* MBProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBProgressHUD.swift; sourceTree = "<group>"; };
+		1B8EC0D61EE81EC7008912A3 /* TextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextView.xib; sourceTree = "<group>"; };
 		5C156245DAFC694696181F47 /* Pods-StatUpCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StatUpCodingChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StatUpCodingChallenge/Pods-StatUpCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		D38C36AD2081C10C03D2D4F8 /* Pods_StatUpCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StatUpCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE08A31830399509181A2FA /* Pods-StatUpCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StatUpCodingChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-StatUpCodingChallenge/Pods-StatUpCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
@@ -91,13 +99,14 @@
 		1B1B5D0C1EE69A45008962BB /* StatUpCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				1B8EC0CB1EE7C189008912A3 /* Cell */,
 				1B1B5D441EE6D7E8008962BB /* Utils */,
 				1B1B5D431EE6D7DA008962BB /* Helper */,
 				1B1B5D3F1EE6D2EA008962BB /* Service */,
 				1B1B5D3E1EE6D29C008962BB /* Domain */,
 				1B1B5D371EE6D0B8008962BB /* Extension */,
 				1B1B5D0D1EE69A45008962BB /* AppDelegate.swift */,
-				1B1B5D0F1EE69A45008962BB /* ViewController.swift */,
+				1B1B5D0F1EE69A45008962BB /* NotePadTableViewController.swift */,
 				1B1B5D111EE69A45008962BB /* Main.storyboard */,
 				1B1B5D141EE69A45008962BB /* Assets.xcassets */,
 				1B1B5D161EE69A45008962BB /* LaunchScreen.storyboard */,
@@ -113,6 +122,8 @@
 				1B1B5D381EE6D0E3008962BB /* UIAlertController.swift */,
 				1B1B5D3A1EE6D10B008962BB /* UIDevice.swift */,
 				1B1B5D3C1EE6D256008962BB /* UIApplication.swift */,
+				1B8EC0D01EE7D0B6008912A3 /* Double.swift */,
+				1B8EC0D41EE7FAAD008912A3 /* MBProgressHUD.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -122,6 +133,7 @@
 			children = (
 				1B1B5D351EE6C2B5008962BB /* Word.swift */,
 				1B1B5D451EE7B0B1008962BB /* SNSMessage.swift */,
+				1B8EC0D21EE7E948008912A3 /* Definition.swift */,
 			);
 			name = Domain;
 			sourceTree = "<group>";
@@ -159,6 +171,15 @@
 				1B1B5D2D1EE6B95A008962BB /* ViewUtils.swift */,
 			);
 			name = Utils;
+			sourceTree = "<group>";
+		};
+		1B8EC0CB1EE7C189008912A3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1B8EC0D61EE81EC7008912A3 /* TextView.xib */,
+				1B8EC0CE1EE7C2C8008912A3 /* TextView.swift */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 		96C4B5441F675CC35B58B301 /* Pods */ = {
@@ -242,10 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B1B5D181EE69A45008962BB /* LaunchScreen.storyboard in Resources */,
+				1B8EC0D71EE81EC7008912A3 /* TextView.xib in Resources */,
 				1B1B5D151EE69A45008962BB /* Assets.xcassets in Resources */,
 				1B1B5D131EE69A45008962BB /* Main.storyboard in Resources */,
-				1B1B5D2A1EE6B07F008962BB /* Wordnik-StatUpCodingChallenge.release.xcconfig in Resources */,
-				1B1B5D281EE6B064008962BB /* Wordnik-StatUpCodingChallenge.debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +325,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B1B5D461EE7B0B1008962BB /* SNSMessage.swift in Sources */,
-				1B1B5D101EE69A45008962BB /* ViewController.swift in Sources */,
+				1B8EC0D51EE7FAAD008912A3 /* MBProgressHUD.swift in Sources */,
+				1B1B5D101EE69A45008962BB /* NotePadTableViewController.swift in Sources */,
+				1B8EC0D11EE7D0B6008912A3 /* Double.swift in Sources */,
 				1B1B5D481EE7B58E008962BB /* AWSSNSService.swift in Sources */,
 				1B1B5D391EE6D0E3008962BB /* UIAlertController.swift in Sources */,
 				1B1B5D361EE6C2B5008962BB /* Word.swift in Sources */,
@@ -313,8 +335,10 @@
 				1B1B5D301EE6BA2F008962BB /* WebServiceResponseHandler.swift in Sources */,
 				1B1B5D421EE6D611008962BB /* WordService.swift in Sources */,
 				1B1B5D321EE6BAD4008962BB /* DefaultWebServiceResponseHandler.swift in Sources */,
+				1B8EC0CF1EE7C2C8008912A3 /* TextView.swift in Sources */,
 				1B1B5D3B1EE6D10B008962BB /* UIDevice.swift in Sources */,
 				1B1B5D2C1EE6B5B8008962BB /* WebServiceHelper.swift in Sources */,
+				1B8EC0D31EE7E948008912A3 /* Definition.swift in Sources */,
 				1B1B5D2E1EE6B95A008962BB /* ViewUtils.swift in Sources */,
 				1B1B5D0E1EE69A45008962BB /* AppDelegate.swift in Sources */,
 				1B1B5D341EE6C16A008962BB /* WebServiceConfigurator.swift in Sources */,
