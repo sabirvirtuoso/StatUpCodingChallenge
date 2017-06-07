@@ -24,6 +24,8 @@
 		1B1B5D3B1EE6D10B008962BB /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D3A1EE6D10B008962BB /* UIDevice.swift */; };
 		1B1B5D3D1EE6D256008962BB /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D3C1EE6D256008962BB /* UIApplication.swift */; };
 		1B1B5D421EE6D611008962BB /* WordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D411EE6D611008962BB /* WordService.swift */; };
+		1B1B5D461EE7B0B1008962BB /* SNSMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D451EE7B0B1008962BB /* SNSMessage.swift */; };
+		1B1B5D481EE7B58E008962BB /* AWSSNSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B5D471EE7B58E008962BB /* AWSSNSService.swift */; };
 		C387B138F2048DC09F833395 /* Pods_StatUpCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38C36AD2081C10C03D2D4F8 /* Pods_StatUpCodingChallenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,8 @@
 		1B1B5D3A1EE6D10B008962BB /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
 		1B1B5D3C1EE6D256008962BB /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		1B1B5D411EE6D611008962BB /* WordService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordService.swift; sourceTree = "<group>"; };
+		1B1B5D451EE7B0B1008962BB /* SNSMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSMessage.swift; sourceTree = "<group>"; };
+		1B1B5D471EE7B58E008962BB /* AWSSNSService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSSNSService.swift; sourceTree = "<group>"; };
 		5C156245DAFC694696181F47 /* Pods-StatUpCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StatUpCodingChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StatUpCodingChallenge/Pods-StatUpCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		D38C36AD2081C10C03D2D4F8 /* Pods_StatUpCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StatUpCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE08A31830399509181A2FA /* Pods-StatUpCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StatUpCodingChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-StatUpCodingChallenge/Pods-StatUpCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				1B1B5D351EE6C2B5008962BB /* Word.swift */,
+				1B1B5D451EE7B0B1008962BB /* SNSMessage.swift */,
 			);
 			name = Domain;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			children = (
 				1B1B5D401EE6D2FB008962BB /* WebService */,
 				1B1B5D411EE6D611008962BB /* WordService.swift */,
+				1B1B5D471EE7B58E008962BB /* AWSSNSService.swift */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -298,7 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1B5D461EE7B0B1008962BB /* SNSMessage.swift in Sources */,
 				1B1B5D101EE69A45008962BB /* ViewController.swift in Sources */,
+				1B1B5D481EE7B58E008962BB /* AWSSNSService.swift in Sources */,
 				1B1B5D391EE6D0E3008962BB /* UIAlertController.swift in Sources */,
 				1B1B5D361EE6C2B5008962BB /* Word.swift in Sources */,
 				1B1B5D3D1EE6D256008962BB /* UIApplication.swift in Sources */,
