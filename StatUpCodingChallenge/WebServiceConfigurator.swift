@@ -14,6 +14,7 @@ open class WebServiceConfigurator {
     typealias T = (url: String, mapper: (Any?) -> (Any?))
     
     static let wordOfTheDayPath = Bundle.main.infoDictionary!["wordOfTheDayApi"] as? String
+    static let wordOfTheDayApiKey = Bundle.main.infoDictionary!["wordOfTheDayApiKey"] as? String
     
     static let awsIdentityPoolId = Bundle.main.infoDictionary!["AWSIdentityPoolId"] as? String
     static let awsRegion = Bundle.main.infoDictionary!["AWSRegion"] as? String

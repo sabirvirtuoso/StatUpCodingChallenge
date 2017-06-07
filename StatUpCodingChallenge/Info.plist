@@ -2,6 +2,34 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>amazonaws.com</key>
+            <dict>
+                <key>NSThirdPartyExceptionMinimumTLSVersion</key>
+                <string>TLSv1.0</string>
+                <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                <false/>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+            </dict>
+            <key>amazonaws.com.cn</key>
+            <dict>
+                <key>NSThirdPartyExceptionMinimumTLSVersion</key>
+                <string>TLSv1.0</string>
+                <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                <false/>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+            </dict>
+        </dict>
+	</dict>
+	<key>wordOfTheDayApiKey</key>
+	<string>a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5</string>
 	<key>AWSSNSTopic</key>
 	<string>arn:aws:sns:us-west-2:327210751071:statup-challenge-push</string>
 	<key>AWSRegion</key>
