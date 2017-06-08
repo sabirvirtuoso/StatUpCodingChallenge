@@ -13,7 +13,7 @@
             <objects>
                 <tableViewController title="NotePad" id="81Z-19-fXx" customClass="NotePadTableViewController" customModule="StatUpCodingChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="kHj-gP-pYo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <connections>
@@ -21,6 +21,7 @@
                             <outlet property="delegate" destination="81Z-19-fXx" id="BME-2N-kAE"/>
                         </connections>
                     </tableView>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Simple Notepad" id="w36-Wv-KIh">
                         <barButtonItem key="rightBarButtonItem" systemItem="compose" id="g8T-EM-o0h">
