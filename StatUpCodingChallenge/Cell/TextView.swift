@@ -6,6 +6,7 @@
 //  Copyright © 2017 Syed Sabir Salman. All rights reserved.
 
 import UIKit
+import MBProgressHUD
 
 open class TextView: UITableViewCell {
 
@@ -70,6 +71,8 @@ extension TextView: UITextViewDelegate {
         updateTextViewBackgroundColor()
 
         if hasWordOfTheDay(in: textView) {
+            _ = MBProgressHUD.toastHUD(textView, labelText: "Word of the day typed. Shake...")
+
             awsSnsService.publish(snsMessage: snsMessage())
         }
     }

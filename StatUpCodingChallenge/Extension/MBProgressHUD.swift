@@ -34,4 +34,14 @@ extension MBProgressHUD {
         
         return progressHUD
     }
+
+    static func toastHUD(_ view: UIView!, labelText: String, hideAfterDelay delay: Double = 1.0) -> MBProgressHUD! {
+        let progressHUD = MBProgressHUD.showAdded(to: view, animated: true)
+
+        progressHUD.mode = .text
+        progressHUD.label.text = labelText
+        progressHUD.hide(animated: true, afterDelay: delay)
+
+        return progressHUD
+    }
 }
