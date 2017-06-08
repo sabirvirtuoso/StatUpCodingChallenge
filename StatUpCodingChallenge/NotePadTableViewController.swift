@@ -102,7 +102,7 @@ extension NotePadTableViewController {
     }
     
     override open func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
+        return view.bounds.size.height / 2
     }
 
     open override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
