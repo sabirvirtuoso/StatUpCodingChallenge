@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "StatUpCodingChallenge/Service/AWSSNSService.swift"
-            timestampString = "518597016.947129"
+            timestampString = "518603294.692285"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "publish(snsMessage:)"
             landmarkType = "7">
          </BreakpointContent>

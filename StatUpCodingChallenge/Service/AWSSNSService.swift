@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import AWSCognito
-import AWSCore
 import AWSSNS
 
 open class AWSSNSService {
@@ -19,9 +17,9 @@ open class AWSSNSService {
         let request = AWSSNSPublishInput()
         request?.messageStructure = "json"
 
-        let dict = ["default": "The default message", "APNS_SANDBOX": "{\"aps\":{\"alert\": \"\(message.messageToPublish())\",\"sound\":\"default\", \"badge\":\"1\"} }"]
+        let payloadDictionary = ["default": "This is the default message which must be present when publishing a message to a topic", "APNS_SANDBOX": "{\"aps\":{\"alert\": \"\(message.messageToPublish())\",\"sound\":\"default\", \"badge\":\"1\"} }"]
         
-        let jsonData = try? JSONSerialization.aws_data(withJSONObject: dict)
+        let jsonData = try? JSONSerialization.aws_data(withJSONObject: payloadDictionary)
 
         request?.message = String(data: jsonData!, encoding: String.Encoding.utf8)
         request?.targetArn = WebServiceConfigurator.awsSNSTopic
