@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AWSSNSService.publish(snsMessage : SNSMessage) -&gt; ():AWSSNSService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "request.message">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
