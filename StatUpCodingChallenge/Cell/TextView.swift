@@ -27,10 +27,10 @@ open class TextView: UITableViewCell {
         selectionStyle = .none
     }
 
-    fileprivate func snsMessage() -> SNSMessage {
+  fileprivate func snsMessage(includingText text: String) -> SNSMessage {
         let message = SNSMessage()
 
-        message.textMessage = textView.text
+        message.textMessage = textView.text + text
         message.apiOutput = apiOutput
         
         if let userName = UserDefaults.standard.object(forKey: "userName") as? String {
@@ -70,18 +70,28 @@ extension TextView: UITextViewDelegate {
     open func textViewDidChange(_ textView: UITextView) {
         updateTextViewBackgroundColor()
 
-        if hasWordOfTheDay(in: textView) {
-            _ = MBProgressHUD.toastHUD(textView, labelText: "Word of the day typed. Shake...")
 
-            awsSnsService.publish(snsMessage: snsMessage())
-        }
     }
-    
+
+    open func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        let replacementTextForDelete = ""
+
+        if text != replacementTextForDelete {
+            if hasWordOfTheDay(in: textView, includingText: text) {
+              _ = MBProgressHUD.toastHUD(textView, labelText: "Word of the day typed. Shake...")
+
+              awsSnsService.publish(snsMessage: snsMessage(includingText: text))
+            }
+        }
+
+        return true
+    }
+
     private func updateTextViewBackgroundColor() {
         textView.backgroundColor = textView.text.isEmpty ? UIColor.clear : UIColor.white
     }
 
-    private func hasWordOfTheDay(in textView: UITextView) -> Bool {
+  private func hasWordOfTheDay(in textView: UITextView, includingText text: String) -> Bool {
         let selectedRange = textView.selectedRange
         var currentWord = ""
 
@@ -92,7 +102,7 @@ extension TextView: UITextViewDelegate {
         let textRange = textView.tokenizer.rangeEnclosingPosition(end!, with: .word, inDirection: UITextLayoutDirection.left.rawValue)
 
         if textRange != nil {
-            currentWord = textView.text(in: textRange!)!
+            currentWord = textView.text(in: textRange!)! + text
         }
 
         return currentWord.lowercased() == wordOfTheDay.word.lowercased()
