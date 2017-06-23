@@ -68,7 +68,7 @@ extension SNSMessage {
             message += "\n\nPosted by \(userName)\n\n"
         }
 
-        message += "\(apiOutput)\n\n"
+        //message += "\(apiOutput)\n\n"
         message += "Source Repository URL: \(sourceRepository)"
 
         return message

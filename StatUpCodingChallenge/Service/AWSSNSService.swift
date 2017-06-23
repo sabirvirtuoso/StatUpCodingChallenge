@@ -17,7 +17,7 @@ open class AWSSNSService {
         let request = AWSSNSPublishInput()
         request?.messageStructure = "json"
 
-        let payloadDictionary = ["default": "This is the default message which must be present when publishing a message to a topic", "APNS_SANDBOX": "{\"aps\":{\"alert\": \"\(message.messageToPublish())\",\"sound\":\"default\", \"badge\":\"1\"} }"]
+        let payloadDictionary = ["default": "\(message.messageToPublish())"]
         
         let jsonData = try? JSONSerialization.aws_data(withJSONObject: payloadDictionary)
 
